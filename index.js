@@ -40,7 +40,7 @@ async function run() {
 
   await page.goto("https://quotes.toscrape.com");
   await page.click('a[href="/login"]');
-  await page.type("#username", "PedroTech", { delay: 100 });
+  await page.type("#username", "HankKim", { delay: 100 });
   await page.type("#password", "password", { delay: 100 });
   await page.click('input[value="Login"]');
   //   await browser.close();
